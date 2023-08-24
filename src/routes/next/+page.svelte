@@ -1,5 +1,5 @@
 <script lang="ts">
-    
+import chair from "$lib/assets/third.jpeg"
 </script>
 <style lang="scss">
 
@@ -29,19 +29,23 @@ img{
 </style>
 <section>
     <div class="parallax grid place-items-center">
-<h1 class="clip-text text-5xl md:text-4xl lg:text-6xl">??? verhoilu</h1>
+<h1 class="clip-text text-5xl md:text-6xl lg:text-8xl">??? verhoilu</h1>
     </div>
-    <main class="grid lg:grid-cols-2 py-5 place-items-center">
-        <div>
+    <main class=" grid lg:grid-cols-2 py-5">
+        <div class="hidden lg:block">
             <img class="rounded md:ml-1" src="https://gymtalk.com/wp-content/uploads/Snip20180404_10.png" alt="portrait"/>
         </div>
-        <div class="text-xl ml-3 mr-3">
+        <div class="text-xl ml-3 mr-3 leading-7">
 Tervetuloa ???verhoiluun, jossa käsityötaito kohtaa mukavuuden ja tyylin. Tarinamme alkoi yli kolme vuosikymmentä sitten, kun perustajamme Richard Hampton, intohimoinen käsityöläinen, jolla oli visio, lähti matkalle määrittelemään uudelleen verhoilutaidon.
-<br>Vuonna 1990 perustetusta ???verhoiluun on sittemmin tullut huippuosaamisen majakka huonekalujen restauroinnin ja mittatilaustyönä tehtävän verhoilun maailmassa. Sitoutumisemme huonekalujen ajattoman kauneuden säilyttämiseen ja samalla modernin tyylikkyyden tuomiseen niihin on tuonut meille maineen, joka ulottuu yli sukupolvien.
+<br><br>Vuonna 1990 perustetusta ???verhoiluun on sittemmin tullut huippuosaamisen majakka huonekalujen restauroinnin ja mittatilaustyönä tehtävän verhoilun maailmassa. Sitoutumisemme huonekalujen ajattoman kauneuden säilyttämiseen ja samalla modernin tyylikkyyden tuomiseen niihin on tuonut meille maineen, joka ulottuu yli sukupolvien.
+<img class="rounded md:ml-1 my-2 lg:hidden block" src="https://gymtalk.com/wp-content/uploads/Snip20180404_10.png" alt="portrait"/>
 <br>Me ???verhoilu -yrityksessä uskomme, että huonekalut ovat muutakin kuin vain toiminnallinen esine; ne heijastavat persoonallisuuttasi ja tyyliäsi. Ammattitaitoisten käsityöläisten tiimimme, jolla on yhteensä yli sadan vuoden kokemus, restauroi ja muuntaa jokaisen huonekalun huolellisesti, puhaltaa uuden elämän rakkaisiin perintökappaleisiin ja luo mittatilaustyönä kappaleita, jotka ilmentävät ainutlaatuista makuasi.
-<br>Omistautumisemme laadulle on horjumatonta. Hankimme hienoimpia materiaaleja ja tekstiilejä ja varmistamme, että jokainen ommel, jokainen yksityiskohta on toteutettu tarkasti ja huolellisesti. Työmme on osoitus verhoilun ajattomasta taidokkuudesta, klassisesta uudelleenverhoilusta nykyaikaiseen uudelleensuunnitteluun.
+<br><br>Omistautumisemme laadulle on horjumatonta. Hankimme hienoimpia materiaaleja ja tekstiilejä ja varmistamme, että jokainen ommel, jokainen yksityiskohta on toteutettu tarkasti ja huolellisesti. Työmme on osoitus verhoilun ajattomasta taidokkuudesta, klassisesta uudelleenverhoilusta nykyaikaiseen uudelleensuunnitteluun.
+<div class="grid place-items-center">
+    <img src={chair} alt="chair" class="mt-2 "/>
+</div>
 <br>Kun suuntaamme tulevaisuuteen, olemme edelleen sitoutuneet perusperiaatteisiimme: ammattitaitoon, laatuun ja vankkumattomaan omistautumiseen asiakkaillemme. ???verhoilu ei ole pelkkä yritys, vaan se on huippuosaamisen perintö, perinne huonekalujen muuttamisessa taideteoksiksi.
-<br>Kutsumme sinut tutustumaan valikoimaamme ja löytämään Luxe-eron. Liity meihin ja jatka perintöä, jonka avulla luomme huonekaluja, jotka kertovat ainutlaatuisen tarinasi, ommel kerrallaan.
+<br><br>Kutsumme sinut tutustumaan valikoimaamme ja löytämään Luxe-eron. Liity meihin ja jatka perintöä, jonka avulla luomme huonekaluja, jotka kertovat ainutlaatuisen tarinasi, ommel kerrallaan.
 </div>    
 </main>
 </section>

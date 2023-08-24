@@ -49,7 +49,6 @@
 .src2{
 	background-image: url("../lib/assets/sofa.jpg");
 }
-
 </style>
 <div class="grid place-items-center parallax src">
 	<h1 class="absolute text-5xl md:text-6xl lg:text-7xl font-extrabold z-10">???verhoilu</h1>
@@ -71,9 +70,9 @@
 	</div>
 </div>
 <div class="grid grid-cols-2">
-	<div class="flex justify-center items-center flex-col ml-7 -translate-y-7">
+	<div class="flex justify-center items-center flex-col ml-4 -translate-y-28 md:-translate-y-8 relative">
 		<p class="font-bold pb-2">Huonekalujen entisöinti: </p>
-		Ymmärrämme perintökalusteiden tunnearvon. Restaurointiasiantuntijamme elvyttävät ja restauroivat vintage-huonekalujesi kauneuden huolellisesti säilyttäen niiden aitouden ja historian.
+		Ymmärrämme perintökalusteiden tunnearvon. <br>asiantuntijamme elvyttävät ja restauroivat vintage-huonekalujesi kauneuden huolellisesti säilyttäen niiden aitouden ja historian.
 	</div>
 	<div 	use:viewport
 	on:enterViewport={() => (two = true)}
@@ -129,7 +128,7 @@
 		<p class="mt-4 font-bold">puhelinnumero</p>
 		<p>0452065808</p>
 	</div>
-	<div class="text-center">
+	<div class="text-center mt-2">
 		<iframe class="w-full h-full" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8367.390735112931!2d23.114858267863468!3d63.84002003431597!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x468731e62bf36727%3A0x40146d63c75b270!2sKokkola!5e0!3m2!1sfi!2sfi!4v1692448630406!5m2!1sfi!2sfi"  style="border:0;" title="osoite" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 	</div>
 </div>
